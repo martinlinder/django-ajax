@@ -7,7 +7,7 @@ import json
 from datetime import date
 from django.http.response import HttpResponseRedirectBase, HttpResponse
 from django.template.response import TemplateResponse
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.db.models.base import ModelBase
 from decimal import Decimal
 
